@@ -1,0 +1,15 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 300px;
+  border-style: inset;
+  border-width: 5px;
+  border-color: dotted;
+}
+body{
+  background-color: yellow;
+  text-align: center;
+
+}
+
