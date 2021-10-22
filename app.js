@@ -2,52 +2,52 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
   const cardArray = [
     {
-      name: 'fries',
-      img: 'images/fries.png'
+      name: 'Tringle',
+      img: 'images/Tringle.png'
     },
     {
-      name: 'cheeseburger',
-      img: 'images/cheeseburger.png'
+      name: 'circle',
+      img: 'images/circle.png'
     },
     {
-      name: 'ice-cream',
-      img: 'images/ice-cream.png'
+      name: 'Frog',
+      img: 'images/Frog.png'
     },
     {
-      name: 'pizza',
-      img: 'images/pizza.png'
+      name: 'troll',
+      img: 'images/troll.png'
     },
     {
-      name: 'milkshake',
-      img: 'images/milkshake.png'
+      name: 'Light',
+      img: 'images/Light.png'
     },
     {
-      name: 'hotdog',
-      img: 'images/hotdog.png'
+      name: 'fish',
+      img: 'images/fish.png'
     },
     {
-      name: 'fries',
-      img: 'images/fries.png'
+      name: 'Tringle',
+      img: 'images/Tringle.png'
     },
     {
-      name: 'cheeseburger',
-      img: 'images/cheeseburger.png'
+      name: 'circle',
+      img: 'images/circle.png'
     },
     {
-      name: 'ice-cream',
-      img: 'images/ice-cream.png'
+      name: 'Frog',
+      img: 'images/Frog.png'
     },
     {
-      name: 'pizza',
-      img: 'images/pizza.png'
+      name: 'troll',
+      img: 'images/troll.png'
     },
     {
-      name: 'milkshake',
-      img: 'images/milkshake.png'
+      name: 'Light',
+      img: 'images/Light.png'
     },
     {
-      name: 'hotdog',
-      img: 'images/hotdog.png'
+      name: 'fish',
+      img: 'images/fish.png'
     }
   ]
 
@@ -83,8 +83,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
     }
     else if (clicked[0] === clicked[1]) {
       alert('Its a Match')
-      cards[First].setAttribute('src', 'images/white.png')
-      cards[second].setAttribute('src', 'images/white.png')
+      cards[First].setAttribute('src', 'images/Empty.png')
+      cards[second].setAttribute('src', 'images/Empty.png')
       cards[First].removeEventListener('click', flipCard)
       cards[second].removeEventListener('click', flipCard)
       winning.push(clicked)
